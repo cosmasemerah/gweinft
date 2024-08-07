@@ -25,7 +25,18 @@
 }
 
 @layer base {
+  @font-face {
+    font-family: "Mokoto";
+    font-weight: normal;
+    font-style: normal;
+    src: url("/src/fonts/mokoto-mokoto-regular-400.otf") format("otf");
+  }
+
   body {
     @apply bg-neutral-200 text-zinc-950;
+  }
+
+  h1 {
+    font-family: Mokoto;
   }
 }

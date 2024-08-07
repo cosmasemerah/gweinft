@@ -149,8 +149,9 @@ export function App() {
   return (
     <>
       <Header />
-      <main className="p-4 pb-10 min-h-[100vh] flex items-center justify-center container max-w-screen-lg mx-auto">
-        <div className="py-20">
+      <main className="p-4 pb-10 min-h-[100vh] flex flex-col items-center justify-center container max-w-screen-lg mx-auto">
+        <h1 className="text-4xl font-mokoto">Gwei Token Presale Pass</h1>
+        <div className="py-14">
           <>
             <div className="flex items-center justify-center mb-10">
               <MediaRenderer

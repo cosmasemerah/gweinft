@@ -9,7 +9,7 @@ module.exports = {
         dark: "#070a13",
       },
       fontFamily: {
-        mokoto: ["var(--font-mokoto)"],
+        mokoto: ["Mokoto"],
       },
     },
   },
