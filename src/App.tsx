@@ -45,7 +45,11 @@ export function App() {
     contract,
     method:
       "function getSupplyClaimedByWallet(uint256 _tokenId, uint256 _conditionId, address _claimer) view returns (uint256 supplyClaimedByWallet)",
-    params: [token, claimId, account?.address],
+    params: [
+      token,
+      claimId,
+      account?.address || "0x0000000000000000000000000000000000000000",
+    ],
   });
 
   // Calculate the total available supply of NFTs
