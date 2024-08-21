@@ -220,7 +220,7 @@ export function App() {
                     alert(`Minted successfully: ${tx.transactionHash}`);
                   }}
                   onError={(error) => {
-                    alert(`Error: ${error.cause}`);
+                    console.log(`Error: ${error.message}`);
                   }}
                   disabled={maxClaimableByWallet === BigInt(0)}
                 >
